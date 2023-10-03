@@ -1,0 +1,45 @@
+Names: Minh Tong, Jenna Khalili
+x500s: tong0154, khali261
+
+Group member's names and x500s
+    --> Jenna Khalili - khali261
+    --> Minh Tong - tong0154
+
+Contributions of each partner (if working with a partner)
+    --> Minh:
+        --> makeMaze()
+        --> printMaze()
+    --> Jenna:
+        --> printMaze()
+        --> solveMaze()
+
+How to compile and run your program
+    --> DO NOT CLICK THE PLAY BUTTON WHEN USING YOUR FAVORITE EDITOR
+    --> Download 'project4.zip' file and unzip it
+    --> On the terminal, travel to that files directory
+    --> Add the necessary files for grading (Cell, NGen, Stack1Gen, etc...)
+    --> Type javac MyMaze.java to compile and then java MyMaze to run
+
+Any assumptions
+    --> the user includes the space, as directed, by the format part of the prompt
+
+Additional features that you implemented (if applicable)
+    --> input is entered like in the chess project, project 2. ([num1] [num2])
+    --> re-prompts input if wrong input is entered, like if the value isn't between 5 and 20 for either
+
+Any known bugs or defects in the program
+    --> the user has to input dimensions like (5 19), (6 12), etc... or else it would stop the program and throw a NumberFormatException
+
+Any outside sources
+    --> None
+
+Include the statement:
+    --> I certify that the information contained in this README
+        file is complete and accurate. I have both read and followed the course policies
+        in the ‘Academic Integrity - Course Policy’ section of the course syllabus.
+        - Minh Tong
+
+    --> I certify that the information contained in this README
+        file is complete and accurate. I have both read and followed the course policies
+        in the ‘Academic Integrity - Course Policy’ section of the course syllabus.
+        - Jenna Khalili
