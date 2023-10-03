@@ -1,0 +1,28 @@
+Group members’ names and x500s
+- Minh Tong (tong0154@umn.edu)
+
+Contributions of each partner (if working with a partner)
+- I wrote and implemented this whole project
+
+How to compile and run your program
+- to compile, navigate to the folder in your terminal and type "javac Game.java," then type "java Game.java" and it should work
+
+Any assumptions
+- I assume the person playing will input things formatted how it tells them to, otherwise the program will break because I wasn't required to make sure the user types the correct thing
+
+Additional features that you implemented (if applicable)
+- I made new pieces in the board class instead of using fen, but otherwise, everything in the project has been done and nothing more besides minor helper functions that work to make the game run as it should like getWinner in board that determines what string prints at the end
+- There is also verifyKnight in Board.java which checks if the knight is making a valid L move
+
+Any known bugs or defects in the program
+- program will break if a move is typed in without spaces or in any other format but "# # # #"
+- if you use clear(), the prompt that black has won will be printed, but since it's just for grading I assume it is okay
+
+Any outside sources (aside from course resources) consulted for ideas used in the project, in
+the format:
+- None
+
+“I certify that the information contained in this README
+file is complete and accurate. I have both read and followed the course policies
+in the ‘Academic Integrity - Course Policy’ section of the course syllabus.” 
+- Minh Hoang Tong
