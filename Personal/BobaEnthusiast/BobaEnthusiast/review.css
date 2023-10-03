@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+    color: #f5ede5;
+}
+
+body{
+    background-color: #f5ede5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    border: black 1px solid;
+    width: 100vw;
+}
+
+.navli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #f5ede5;
+}
+
+.nav-buttons:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #464a4a;
+    background-color: rgba(245, 227, 173, 0.812);
+    transition: all .4s ease;
+    font-size: 1.1em;
+    color: #464a4a;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+    padding-left: 50px;
+}
+
+#mainlogo {
+    text-decoration: none;
+    color: #464a4a;
+}
+
+#top {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bottom {
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: right;
+    font-family: 'Arsenal', sans-serif;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: -50px;
+}
+
+.areas {
+    width: 90vw;
+    border: black 1px solid;
+}
+
+#pagetitle {
+    height: 25vh;
+    margin-top: 4%;
+    border: none;
+    color: rgb(66, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.titles {
+    font-size: 3em;
+    text-align: center;
+}
+
+#newPage {
+    height: 252px;
+    width: 100%;
+    color: #464a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+footer {
+    margin-top: 4%;
+    width: 100%;
+    height: 125px;
+    background-color: #B5BFB7;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+footer {
+    margin-top: 4%;
+    width: 100%;
+    height: 125px;
+    background-color: #292929;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#footerul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+#socialMedia {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5ede5;
+}
+
+.icons:hover {
+    width: 68px;
+    height: 68px;
+    transition: 0.3s;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+}    
+

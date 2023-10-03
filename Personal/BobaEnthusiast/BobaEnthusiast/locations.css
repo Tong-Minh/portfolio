@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+    color: #f5ede5;
+}
+
+body{
+    background-color: #f5ede5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    border: black 1px solid;
+    width: 100vw;
+}
+
+.navli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #f5ede5;
+}
+
+.nav-buttons:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #464a4a;
+    background-color: rgba(245, 227, 173, 0.812);
+    transition: all .4s ease;
+    font-size: 1.1em;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
+    padding-left: 50px;
+    color: #2B2607;
+}
+
+#mainlogo {
+    text-decoration: none;
+}
+
+#top {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bottom {
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: right;
+    font-family: 'Arsenal', sans-serif;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: -50px;
+}
+
+.areas {
+    width: 90vw;
+}
+
+.titles {
+    font-size: 3em;
+    text-align: center;
+}
+
+#pagetitle {
+    height: 25vh;
+    margin-top: 4%;
+    border: none;
+    color: rgb(66, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#one {
+    height: auto;
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5vw;
+    padding: 0 5%;
+}
+
+.store {
+    border: 1px black solid;
+    height: 350px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0em;
+    text-decoration: none;
+}
+
+.info {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr 1fr 2fr 1fr 2fr;
+}
+
+.name {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#mango {
+    font-size: 1.5em;
+}
+
+.svgicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgicon2 {
+    width: 100%;
+}
+
+.stars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1px;
+    padding: 0 5px;
+}
+
+.star {
+    width: 100%;
+}
+
+#boba1 {
+    background-image: url("LocationIMGs/fengcha.jpeg");
+}
+#boba1:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/fengcha.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc1 {
+
+}
+
+#boba2 {
+    background-image: url("LocationIMGs/sharetea.png");
+}
+#boba2:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/sharetea.png");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc2 {
+
+}
+
+#boba3 {
+    background-image: url("LocationIMGs/tigersugar.jpeg");
+}
+#boba3:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/tigersugar.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc3 {
+
+}
+#boba4 {
+    background-image: url("LocationIMGs/kft.jpeg");
+}
+#boba4:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/kft.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc4 {
+
+}
+
+#boba5 {
+    background-image: url("LocationIMGs/tiicup.jpeg");
+}
+#boba5:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/tiicup.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc5 {
+
+}
+
+#boba6 {
+    background-image: url("LocationIMGs/sencha.jpeg");
+}
+#boba6:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/sencha.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc6 {
+
+}
+
+#boba7 {
+    background-image: url("LocationIMGs/gocha.jpeg");
+}
+#boba7:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/gocha.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc7 {
+
+}
+
+#boba8 {
+    background-image: url("LocationIMGs/Mango-Mango.jpeg");
+}
+#boba8:hover {
+    background-image: linear-gradient(0deg, rgba(0,0,0, .5), rgba(0,0,0, .5)), url("LocationIMGs/Mango-Mango.jpeg");
+    font-size: 3em;
+    transition: 0.3s;
+    color: #F7F6F5;
+}
+#desc8 {
+
+}
+
+
+footer {
+    margin-top: 4%;
+    width: 100%;
+    height: 125px;
+    background-color: #292929;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#footerul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+#socialMedia {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons:hover {
+    width: 68px;
+    height: 68px;
+    transition: 0.3s;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+}    
