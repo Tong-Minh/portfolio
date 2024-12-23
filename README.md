@@ -1,2 +1,2 @@
 # portfolio
-Public repository to store class work, personal projects, and more.
+Public repository to store older class work, personal projects, and more.
